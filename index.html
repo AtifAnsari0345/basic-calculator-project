@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator container">
+        <div class="screen">
+            <input type="text" id="display" readonly>
+        </div>
+        <div class="buttons">
+            <div class="row">
+                <button id="ac" class="btn btn-danger">AC</button>
+                <button id="bracket" class="btn btn-secondary">( )</button>
+                <button id="modulo" class="btn btn-secondary">%</button>
+                <button id="divide" class="btn btn-secondary">/</button>
+            </div>
+            <div class="row">
+                <button id="7" class="btn btn-light">7</button>
+                <button id="8" class="btn btn-light">8</button>
+                <button id="9" class="btn btn-light">9</button>
+                <button id="multiply" class="btn btn-secondary">*</button>
+            </div>
+            <div class="row">
+                <button id="4" class="btn btn-light">4</button>
+                <button id="5" class="btn btn-light">5</button>
+                <button id="6" class="btn btn-light">6</button>
+                <button id="subtract" class="btn btn-secondary">-</button>
+            </div>
+            <div class="row">
+                <button id="1" class="btn btn-light">1</button>
+                <button id="2" class="btn btn-light">2</button>
+                <button id="3" class="btn btn-light">3</button>
+                <button id="add" class="btn btn-secondary">+</button>
+            </div>
+            <div class="row">
+                <button id="0" class="btn btn-light">0</button>
+                <button id="decimal" class="btn btn-light">.</button>
+                <button id="square" class="btn btn-secondary">x²</button>
+                <button id="equal" class="btn btn-primary">=</button>
+            </div>
+        </div>
+    </div>
+    <!-- Link to custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
